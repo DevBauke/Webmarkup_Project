@@ -14,29 +14,53 @@ nav
     flex-direction: row;
     align-items: center;
 }
+
 p
 {
+    font-size: medium;
     font-family: "Nunito", "Roboto", sans-serif;
-    border: 5px;
+    border: 0;
     border-style: hidden;
-    border-color: red;
+    border-color: red;/*Dit is alleen voor tests*/
     margin: auto;
-    margin: 5px;
-    padding: 5px;
+    margin: 1%;
+    padding: 0;
     background-color: rgb(150, 150, 150);
-    border-radius: 15px;
+    border-radius: 20%;
     
 }
-p > a
+
+p > a, em
 {
     background-color:  rgb(150, 150, 150);
 }
+
 img
 {
     width: 300px;
     height: auto;
 }
-.Background
+
+.BackgroundGrey
+{
+    background-color: rgb(150, 150, 150);
+}
+
+.BackgroundWhite
 {
     background-color: #FFF;
+}
+
+.form
+{
+    border: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer
+{
+    justify-content: start;
+    align-items: center;
 }
