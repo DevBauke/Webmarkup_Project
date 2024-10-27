@@ -4,4 +4,39 @@
     margin: 0;
     padding: 0;
     background-color: #FFF;
+    text-align: left;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+p
+{
+    font-family: "Nunito", "Roboto", sans-serif;
+    border: 5px;
+    border-style: hidden;
+    border-color: red;
+    margin: auto;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 15px;
+    
+}
+p > a
+{
+    background-color:  rgb(150, 150, 150);
+}
+img
+{
+    width: 300px;
+    height: auto;
+}
+.Background
+{
+    background-color: #FFF;
 }
