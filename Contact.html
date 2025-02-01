@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="utf-8">
-        <meta name="keywords" content="uitstel van betaling, subsidie, subsidies, schuld, schulden, hypotheek, contact, formulier">
-        <meta name="description" content="Contactformulier">
-        <meta name="author" content="Bauke Bosma">
-        <link rel="stylesheet" type="text/css" href="css/stylesheetWebmarkup.css">
-        <title></title>
-    </head>
-    <body>
-        <header>
-                 <nav>
-                    <a href="index.html">Home</a>
-                    <a href="UitstelVanBetaling.html">Uitstel van betaling</a>
-                    <a href="Subsidies.html">Subsidies</a>
-                    <a href="Schulden.html">Schulden</a>
-                    <a href="Hypotheek.html">Hypotheek</a>
-                    <a href="Contact.html">Contact</a>
-                 </nav>
-        </header>
-        <main>
-                 <h1>
-                    Contact
-                 </h1>
-                 <h2>
-                    Heeft u opmerking of wilt u graag informatie toevoegen aan deze website? Vult u dan onderstaand formulier in.
-                 </h2>
-                 <h3>
-                    Het symbool * geeft dat het invullen van dat veld verplicht is.
-                 </h3>
-                 <form class="form">
-                    <label for="aanhef">Aanhef*:</label>
-                    <select name="aanhef">
-                        <option value="man">man</option>
-                        <option value="vrouw">vrouw</option>
-                        <option value="anders">anders</option>
-                    </select>
-                    <label for="volledigeNaam">Uw volledige naam*</label>
-                    <input type="text" id="volledigeNaam" name="volledigeNaam">
-                    <label for="volledigeNaam">Uw emailadres*</label>
-                    <input type="email" id="emailadres" name="emailadres">
-                    <label for="volledigeNaam">Uw verzoek*</label>
-                    <input type="text" id="verzoek" name="verzoek">
-                    <input type="submit" value="Submit">
-                 </form>
-        </main>
-        <footer>
-         <h3>
-            &copy; 2024 Wise Finance
-         </h3>
-        </footer>
-    </body>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="keywords"
+      content="uitstel van betaling, subsidie, subsidies, schuld, schulden, hypotheek, contact, formulier">
+   <meta name="description" content="Contactformulier">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Bauke Bosma">
+   <link rel="stylesheet" type="text/css" href="css/stylesheetWebmarkup.css">
+   <title>Contactpagina van Wise Finance</title>
+   <link rel="icon" type="image/ico" href="img/Wise-Finance-Logo.ico">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <a href="index.html">Home</a>
+         <a href="UitstelVanBetaling.html">Uitstel van betaling</a>
+         <a href="Subsidies.html">Subsidies</a>
+         <a href="Schulden.html">Schulden</a>
+         <a href="Hypotheek.html">Hypotheek</a>
+         <a href="Contact.html">Contact</a>
+      </nav>
+   </header>
+   <main>
+      <h1>
+         Contact
+      </h1>
+      <h2>
+         Heeft u opmerking of wilt u graag informatie toevoegen aan deze website? Vult u dan onderstaand formulier in.
+      </h2>
+      <h3>
+         Het symbool * geeft aan dat het invullen van dat veld verplicht is.
+      </h3>
+         <form id="form">
+            <fieldset>
+               <legend>Contactformulier</legend>
+            <label for="aanhef">Aanhef*:</label>
+            <select id="aanhef" name="aanhef" form="form">
+               <option value="man">man</option>
+               <option value="vrouw">vrouw</option>
+               <option value="anders">anders</option>
+            </select>
+            <label for="volledigeNaam">Uw volledige naam*</label>
+            <input type="text" id="volledigeNaam" name="volledigeNaam">
+            <label for="volledigeNaam">Uw emailadres*</label>
+            <input type="email" id="emailadres" name="emailadres">
+            <label for="volledigeNaam">Uw verzoek*</label>
+            <input type="text" id="verzoek" name="verzoek">
+            <input class="BackgroundGrey" type="submit" value="Submit">
+         </fieldset>
+         </form>
+   </main>
+   <footer>
+      <h3>
+         &copy; 2024 Wise Finance
+      </h3>
+   </footer>
+</body>
+
 </html>
