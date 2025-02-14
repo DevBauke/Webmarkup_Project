@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    text-align: left;
+}
+
+nav {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    height: fit-content;
+    font-size: 1em;
+    font-family: "Nunito", "Roboto", sans-serif;
+    /*border: 10px hidden red; Dit is alleen voor tests*/
+    margin: 1%;
+    padding: 1%;
+    line-height: normal;
+    text-indent: 0px;
+    word-spacing: normal;
+    background-color: rgb(150, 150, 150);
+}
+
+a:hover {
+    background-color: rgb(15, 161, 251);
+    color: black;
+}
+
+a:link {
+    color: darkblue;
+}
+
+p>a,
+em {
+    background-color: rgb(150, 150, 150);
+}
+
+p>ul {
+    padding: 1em;
+    margin: 1em;
+}
+
+h1,
+h2,
+h3 {
+    margin: 1%;
+    padding: 1em;
+    letter-spacing: 0px;
+    /*border: 5px solid red;*/
+}
+
+img {
+    width: 40%;
+    height: auto;
+    margin: 1%;
+}
+
+strong,
+label,
+.BackgroundGrey {
+    background-color: rgb(150, 150, 150);
+}
+
+input,
+select {
+    background-color: rgb(200, 200, 200);
+}
+
+.BackgroundWhite {
+    background-color: #FFF;
+}
+
+.form>fieldset {
+    display: flex;
+    font-size: 1em;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+section>form {
+    padding: 1em;
+}
+
+figcaption
+{
+    margin: 0 1%;
+}
+ul > li
+{
+    margin: 1%;
+}
+footer,
+footer>h3 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.cookiesNotification {
+    text-transform: uppercase;
+}
+
+#cookiesTitle {
+    z-index: 9999;
+}
